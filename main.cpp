@@ -27,6 +27,14 @@ void TogglePlayer() {
 void Input(){
 
     int a;
+
+    cout<<"-----------"<<endl;
+    if (player == 'X') {
+        cout<<"X Turn!"<<endl;
+    }
+    else {
+        cout<<"O Turn!"<<endl;
+    }
     cout<< "Press the number of the field: ";
     cin>>a;
 
